@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Uppercase</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
     <form>
+        <div>
+            
         <label for="entrada">Entrada:</label>
-        <br>
-        <input type="text" name="Entrada">
-        <br>
-        <input type="reset" value="Limpar">
-        <input type="button" value="UpperCase">
-        <br>
+        <input type="text" class="campotexto" name="Entrada">
+
+        <div class="container-button">
+            <input type="reset" class="button" value="Limpar">
+            <input type="button" class="button" value="UpperCase">
+        </div>
+        
         <label for="Saída"> Saída:</label>
-        <br>
-        <textarea name="Saída" rows="5" cols="30"></textarea>
+        <textarea rows="5" cols="35" name="Saída" class="campotexto">
+        </textarea>
+        </div>
     </form>
 </body>
 </html>
